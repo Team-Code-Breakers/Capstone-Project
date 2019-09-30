@@ -1,0 +1,8 @@
+TextBox txt = new TextBox();
+txt.ID = "textBox1";
+txt.Text = "helloo";
+form1.Controls.Add(txt);
+
+Label lbl = new Label();
+lbl.Text = "I am a label";
+form1.Controls.Add(lbl);
